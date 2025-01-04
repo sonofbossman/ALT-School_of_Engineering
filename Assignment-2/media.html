@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tunde Akingbade" />
+    <title>Media Elements About Me</title>
+  </head>
+  <body>
+    <header>
+      <h1 align="center" padding="10px">Welcome to My Digital Space</h1>
+    </header>
+
+    <main>
+      <h2 align="center">Picture of Myself</h2>
+      <picture>
+        <source media="(min-width: 1024px)" srcset="images/laptop.jpg" />
+        <source media="(min-width: 768px)" srcset="images/tablet.jpg" />
+        <source media="(max-width: 767px)" srcset="images/mobile.jpg" />
+        <img src="images/about-me.png" alt="About Me Image" />
+      </picture>
+
+      <h2 align="center">My Message in Video</h2>
+      <div align="center">
+        <video controls width="80%">
+          <source src="videos/introduction.mp4" type="video/mp4" />
+          <source src="videos/introduction.webm" type="video/webm" />
+          Your browser does not support the video element.
+        </video>
+      </div>
+
+      <h2 align="center">A Podcast About My Journey</h2>
+      <div align="center">
+        <audio controls>
+          <source src="audio/journey.mp3" type="audio/mpeg" />
+          <source src="audio/journey.ogg" type="audio/ogg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <h2 align="center">A Powerful Message</h2>
+      <figure>
+        <img src="images/message.jpg" alt="Powerful Message" width="50%" />
+        <figcaption>
+          "The future belongs to those who prepare for it today." - Malcolm X
+        </figcaption>
+      </figure>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Tunde Akingbade. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
