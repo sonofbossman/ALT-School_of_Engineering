@@ -12,35 +12,55 @@
     </header>
 
     <main>
-      <h2 align="center">Picture of Myself</h2>
+      <h2>Picture of Myself</h2>
       <picture>
-        <source media="(min-width: 1024px)" srcset="images/laptop.jpg" />
-        <source media="(min-width: 768px)" srcset="images/tablet.jpg" />
-        <source media="(max-width: 767px)" srcset="images/mobile.jpg" />
-        <img src="images/about-me.png" alt="About Me Image" />
+        <source
+          media="(min-width: 1024px)"
+          srcset="assets/images/my_pic_1.jpg"
+        />
+        <!-- For desktop -->
+        <source
+          media="(min-width: 768px)"
+          srcset="assets/images/my_pic_1.jpg"
+        />
+        <!-- For tablet -->
+        <source
+          media="(max-width: 600px)"
+          srcset="assets/images/my_pic_1.jpg"
+        />
+        <!-- For mobile -->
+        <img src="assets/images/my_pic_1.jpg" alt="About Me Image" />
       </picture>
 
-      <h2 align="center">My Message in Video</h2>
-      <div align="center">
-        <video controls width="80%">
-          <source src="videos/introduction.mp4" type="video/mp4" />
-          <source src="videos/introduction.webm" type="video/webm" />
+      <h2>My Message in Video</h2>
+      <div>
+        <video controls width="60%">
+          <source
+            src="assets/videos/Journey - Don't Stop Believin' (video).mp4"
+            type="video/mp4"
+          />
           Your browser does not support the video element.
         </video>
       </div>
-
-      <h2 align="center">A Podcast About My Journey</h2>
-      <div align="center">
+      <h2>A Music About My Journey</h2>
+      <div>
         <audio controls>
-          <source src="audio/journey.mp3" type="audio/mpeg" />
-          <source src="audio/journey.ogg" type="audio/ogg" />
+          <source
+            src="assets/audios/Journey - Don't Stop Believin' (Audio).mp3"
+            type="audio/mpeg"
+          />
           Your browser does not support the audio element.
         </audio>
       </div>
 
-      <h2 align="center">A Powerful Message</h2>
+      <h2>A Powerful Message</h2>
       <figure>
-        <img src="images/message.jpg" alt="Powerful Message" width="50%" />
+        <img
+          src="assets/images/message.webp"
+          alt="Powerful Message"
+          width="500px"
+          height="400px"
+        />
         <figcaption>
           "The future belongs to those who prepare for it today." - Malcolm X
         </figcaption>
@@ -48,7 +68,7 @@
     </main>
 
     <footer>
-      <p>&copy; 2024 Tunde Akingbade. All rights reserved.</p>
+      <p align="center">&copy; 2024 Tunde Akingbade. All rights reserved.</p>
     </footer>
   </body>
 </html>
