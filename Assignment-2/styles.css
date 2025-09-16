@@ -1,0 +1,5 @@
+.pic img {
+  width: 200px;
+  border: 2px #000066 solid;
+  border-radius: 50%;
+}

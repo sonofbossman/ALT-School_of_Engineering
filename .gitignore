@@ -3,3 +3,6 @@ course-materials/
 about-me.png
 Backend/BlogApi
 Backend/PracticeFolder/
+node_modules/
+.env
+Backend/TodoAppAPI
